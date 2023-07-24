@@ -1,5 +1,8 @@
 # Snapit - Social Media Platform - Django REST Framework Backend
-Welcome to the Django REST Framework backend for the Snapit - Social Media Platform! 
+
+Welcome to the Django REST Framework backend for the Snapit - Social Media Platform!
+
+[Django Rest Framework](https://snapitapi-a9c9b5ffecd8.herokuapp.com/)
 
 # Table of Contents
 
@@ -8,22 +11,20 @@ Welcome to the Django REST Framework backend for the Snapit - Social Media Platf
 
 # Technologies Used
 
-* Django
-* Django REST Framework
-* dj-rest-auth
-* django-allauth
-* djangorestframework-simplejwt
-* Pillow
-* dj3-cloudinary-storage
-* django-cors-headers
-* dj-database-url
-* Gunicorn
-* Markdown
-* django-filter
-* Cloudinary
-* django_cloudinary_storage
-
-
+- Django
+- Django REST Framework
+- dj-rest-auth
+- django-allauth
+- djangorestframework-simplejwt
+- Pillow
+- dj3-cloudinary-storage
+- django-cors-headers
+- dj-database-url
+- Gunicorn
+- Markdown
+- django-filter
+- Cloudinary
+- django_cloudinary_storage
 
 # Sources
 
@@ -32,4 +33,3 @@ Default profile image
 
 pip install python-magic-bin
 pip install -r requirements.txt
-

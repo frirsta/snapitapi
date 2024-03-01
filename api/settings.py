@@ -73,11 +73,11 @@ ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://snapit-21abcde7984c.herokuapp.com",
+    "https://snapit-b9dd0cf92754.herokuapp.com",
     "http://localhost:3000",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://snapit-21abcde7984c.herokuapp.com",
+    "https://snapit-b9dd0cf92754.herokuapp.com",
     "http://localhost:3000",
 ]
 

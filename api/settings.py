@@ -73,11 +73,11 @@ ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://snaapit.netlify.app",
+    "https://snapit-21abcde7984c.herokuapp.com",
     "http://localhost:3000",
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://snaapit.netlify.app",
+    "https://snapit-21abcde7984c.herokuapp.com",
     "http://localhost:3000",
 ]
 

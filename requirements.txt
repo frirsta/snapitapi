@@ -76,4 +76,3 @@ tzdata==2023.3
 urllib3>=1.26.18
 yarg==0.1.9
 yarl==1.9.2
-python==3.9.10

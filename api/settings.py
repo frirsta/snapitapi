@@ -80,6 +80,8 @@ CSRF_TRUSTED_ORIGINS = [
     "https://snapit-b9dd0cf92754.herokuapp.com",
     "http://localhost:3000",
 ]
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 
 CORS_ALLOW_CREDENTIALS = True

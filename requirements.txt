@@ -76,3 +76,4 @@ urllib3==1.26.15
 yarg==0.1.9
 yarl==1.9.2
 setuptools==57.5.0
+python-3.9.*

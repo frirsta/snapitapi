@@ -13,13 +13,16 @@ django-cloudinary-storage==0.3.0
 django-cors-headers==4.3.1
 django-filter==24.1
 djangorestframework==3.15.1
+djangorestframework-jwt==1.11.0
 djangorestframework-simplejwt==5.3.1
+gunicorn==21.2.0
 idna==3.6
 oauthlib==3.2.2
+packaging==24.0
 pillow==10.2.0
 psycopg2-binary==2.9.9
 pycparser==2.21
-PyJWT==2.8.0
+PyJWT==1.7.1
 python3-openid==3.2.0
 requests==2.31.0
 requests-oauthlib==2.0.0

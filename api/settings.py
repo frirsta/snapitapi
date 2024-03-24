@@ -74,10 +74,10 @@ ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://snapit-b1bc34a28086.herokuapp.com/"
+    "https://snapit-b1bc34a28086.herokuapp.com"
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://snapit-b1bc34a28086.herokuapp.com/"
+    "https://snapit-b1bc34a28086.herokuapp.com"
 ]
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True

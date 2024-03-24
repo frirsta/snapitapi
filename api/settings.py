@@ -33,9 +33,9 @@ REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        #  'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
+        'dj_rest_auth.jwt_auth.JWTCookieAuthentication',
         # 'rest_framework.authentication.SessionAuthentication',
-        'dj_rest_auth.jwt_auth.JWTCookieAuthentication'
+        # 'dj_rest_auth.jwt_auth.JWTCookieAuthentication'
 
     ],
     'DEFAULT_PAGINATION_CLASS':
@@ -69,16 +69,14 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),
-                 'localhost', '127.0.0.1', "localhost:3000",]
+                 'localhost']
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://snapit-b9dd0cf92754.herokuapp.com",
-    "http://localhost:3000",
+    "https://snapit-b9dd0cf92754.herokuapp.com"
 ]
 CSRF_TRUSTED_ORIGINS = [
-    "https://snapit-b9dd0cf92754.herokuapp.com",
-    "http://localhost:3000",
+    "https://snapit-b9dd0cf92754.herokuapp.com"
 ]
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
@@ -98,8 +96,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'rest_framework',
-    'rest_framework.authtoken',
     'django_filters',
+    'rest_framework.authtoken',
     'dj_rest_auth',
     'django.contrib.sites',
     'allauth',
@@ -127,7 +125,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'api.urls'

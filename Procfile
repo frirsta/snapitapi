@@ -1,2 +1,1 @@
-release: python manage.py makemigrations && python manage.py migrate
-web: gunicorn api.wsgi
+web: python manage.py runserver 0.0.0.0:8000

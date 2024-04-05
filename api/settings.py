@@ -69,18 +69,11 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOST'),
-                 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://snapitapi-wrcj.onrender.com"
-]
-CSRF_TRUSTED_ORIGINS = [
-    "https://snapitapi-wrcj.onrender.com"
-]
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOWS_CREDENTIALS = True
 
 
 CORS_ALLOW_CREDENTIALS = True

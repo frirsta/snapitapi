@@ -18,9 +18,8 @@ if os.path.exists('env.py'):
     import env
 
 
-
 CLOUDINARY_STORAGE = {
-    'CLOUDINARY_URL': os.getenv('CLOUDINARY_URL')
+    'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL')
 }
 
 MEDIA_URL = '/snapit/'
@@ -68,14 +67,13 @@ REST_AUTH_SERIALIZERS = {
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
 
 CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWS_CREDENTIALS = True
-
+CORS_ALLOW_CREDENTIALS = True
 
 # Application definition
 
@@ -154,7 +152,7 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # }
 
 DATABASES = {
-    'default': dj_database_url.parse(os.getenv('DATABASE_URL'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 

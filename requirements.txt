@@ -19,6 +19,7 @@ djangorestframework-simplejwt==5.3.1
 gunicorn==21.2.0
 idna==3.6
 oauthlib==3.2.2
+olefile==0.47
 packaging==24.0
 pillow==10.2.0
 psycopg==3.1.18
@@ -29,6 +30,7 @@ PyJWT==1.7.1
 python3-openid==3.2.0
 requests==2.31.0
 requests-oauthlib==2.0.0
+setuptools==69.2.0
 six==1.16.0
 sqlparse==0.4.4
 typing_extensions==4.10.0
